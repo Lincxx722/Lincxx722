@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Lincxx722 and a quiet cat</title>
+  <desc id="desc">A minimal black and white line drawing of a sitting cat.</desc>
+  <style>
+    .bg { fill: #f7f7f5; }
+    .card { fill: #ffffff; stroke: #deded9; stroke-width: 2; }
+    .ink { fill: none; stroke: #171717; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+    .fill { fill: #171717; }
+    .soft { fill: #777772; }
+    text { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #111111; }
+      .card { fill: #181818; stroke: #343434; }
+      .ink { stroke: #f1f1ed; }
+      .fill { fill: #f1f1ed; }
+      .soft { fill: #aaa9a2; }
+    }
+  </style>
+  <rect class="bg" width="900" height="620" rx="38"/>
+  <rect class="card" x="28" y="28" width="844" height="564" rx="30"/>
+  <path class="ink" d="M348 230 L334 130 L407 178 Q450 159 493 178 L566 130 L552 230"/>
+  <path class="ink" d="M348 230 Q337 284 367 319 Q401 354 450 354 Q499 354 533 319 Q563 284 552 230"/>
+  <path class="ink" d="M390 254 Q405 243 420 254"/>
+  <path class="ink" d="M480 254 Q495 243 510 254"/>
+  <path class="fill" d="M441 278 Q450 270 459 278 Q458 291 450 294 Q442 291 441 278"/>
+  <path class="ink" d="M450 294 Q438 309 423 299 M450 294 Q462 309 477 299"/>
+  <path class="ink" d="M386 285 L316 274 M387 302 L314 309 M514 285 L584 274 M513 302 L586 309"/>
+  <path class="ink" d="M390 346 Q348 390 354 488"/>
+  <path class="ink" d="M510 346 Q552 390 546 488"/>
+  <path class="ink" d="M354 488 Q392 520 450 506 Q508 520 546 488"/>
+  <path class="ink" d="M410 401 L404 495 M490 401 L496 495"/>
+  <path class="ink" d="M548 421 Q646 383 650 456 Q653 519 586 511"/>
+  <text class="soft" x="450" y="558" text-anchor="middle" font-size="18" letter-spacing="7">LINCXX722</text>
+</svg>
