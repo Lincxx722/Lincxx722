@@ -1,46 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
-  <title id="title">Lincxx722 profile</title>
-  <desc id="desc">Minimal black, white and gray profile card.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Lincxx722 and a quiet cat</title>
+  <desc id="desc">A minimal black and white line drawing of a sitting cat.</desc>
   <style>
     .bg { fill: #f7f7f5; }
-    .panel { fill: #ffffff; stroke: #dededb; }
-    .ink { fill: #111111; }
-    .soft { fill: #6f6f6a; }
-    .line { stroke: #cfcfcb; }
+    .card { fill: #ffffff; stroke: #deded9; stroke-width: 2; }
+    .ink { fill: none; stroke: #171717; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+    .fill { fill: #171717; }
+    .soft { fill: #777772; }
     text { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
     @media (prefers-color-scheme: dark) {
       .bg { fill: #111111; }
-      .panel { fill: #181818; stroke: #343434; }
-      .ink { fill: #f4f4f1; }
-      .soft { fill: #a8a8a2; }
-      .line { stroke: #41413e; }
+      .card { fill: #181818; stroke: #343434; }
+      .ink { stroke: #f1f1ed; }
+      .fill { fill: #f1f1ed; }
+      .soft { fill: #aaa9a2; }
     }
   </style>
 
-  <rect class="bg" width="900" height="700" rx="34"/>
-  <rect class="panel" x="28" y="28" width="844" height="644" rx="26"/>
+  <rect class="bg" width="900" height="620" rx="38"/>
+  <rect class="card" x="28" y="28" width="844" height="564" rx="30"/>
 
-  <text class="soft" x="76" y="91" font-size="15" letter-spacing="4">PROFILE / 2026</text>
-  <circle class="ink" cx="812" cy="84" r="6"/>
+  <!-- ears and head -->
+  <path class="ink" d="M348 230 L334 130 L407 178 Q450 159 493 178 L566 130 L552 230"/>
+  <path class="ink" d="M348 230 Q337 284 367 319 Q401 354 450 354 Q499 354 533 319 Q563 284 552 230"/>
 
-  <text class="ink" x="72" y="205" font-size="80" font-weight="650" letter-spacing="-4">Lincxx722</text>
-  <text class="soft" x="76" y="250" font-size="21" letter-spacing="1">quiet building · useful tools · clean interfaces</text>
+  <!-- face -->
+  <path class="ink" d="M390 254 Q405 243 420 254"/>
+  <path class="ink" d="M480 254 Q495 243 510 254"/>
+  <path class="fill" d="M441 278 Q450 270 459 278 Q458 291 450 294 Q442 291 441 278"/>
+  <path class="ink" d="M450 294 Q438 309 423 299 M450 294 Q462 309 477 299"/>
+  <path class="ink" d="M386 285 L316 274 M387 302 L314 309 M514 285 L584 274 M513 302 L586 309"/>
 
-  <line class="line" x1="76" y1="305" x2="824" y2="305"/>
+  <!-- body, paws and tail -->
+  <path class="ink" d="M390 346 Q348 390 354 488"/>
+  <path class="ink" d="M510 346 Q552 390 546 488"/>
+  <path class="ink" d="M354 488 Q392 520 450 506 Q508 520 546 488"/>
+  <path class="ink" d="M410 401 L404 495 M490 401 L496 495"/>
+  <path class="ink" d="M548 421 Q646 383 650 456 Q653 519 586 511"/>
 
-  <text class="soft" x="76" y="357" font-size="14" letter-spacing="3">NOW</text>
-  <text class="ink" x="226" y="357" font-size="23">Building Android and local tools.</text>
-
-  <line class="line" x1="76" y1="405" x2="824" y2="405"/>
-
-  <text class="soft" x="76" y="457" font-size="14" letter-spacing="3">PROJECT</text>
-  <text class="ink" x="226" y="457" font-size="23" font-weight="600">rikkahub</text>
-  <text class="soft" x="226" y="490" font-size="17">Android assistant workflow experiment.</text>
-
-  <line class="line" x1="76" y1="538" x2="824" y2="538"/>
-
-  <text class="soft" x="76" y="590" font-size="14" letter-spacing="3">CONTACT</text>
-  <text class="ink" x="226" y="590" font-size="23">@Lincxx722</text>
-
-  <text class="soft" x="76" y="636" font-size="13" letter-spacing="2">SIMPLE / USEFUL / EASY TO REVISIT</text>
+  <text class="soft" x="450" y="558" text-anchor="middle" font-size="18" letter-spacing="7">LINCXX722</text>
 </svg>
