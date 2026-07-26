@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./assets/cat-profile-v2.svg" width="100%" alt="Lincxx722 — a quiet cat" />
+  <img src="./assets/lincxx722-cat-final.jpg" width="100%" alt="Lincxx722 sleeping cat" />
 </p>
