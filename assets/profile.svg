@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Lincxx722 profile</title>
+  <desc id="desc">Minimal black, white and gray profile card.</desc>
+  <style>
+    .bg { fill: #f7f7f5; }
+    .panel { fill: #ffffff; stroke: #dededb; }
+    .ink { fill: #111111; }
+    .soft { fill: #6f6f6a; }
+    .line { stroke: #cfcfcb; }
+    text { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #111111; }
+      .panel { fill: #181818; stroke: #343434; }
+      .ink { fill: #f4f4f1; }
+      .soft { fill: #a8a8a2; }
+      .line { stroke: #41413e; }
+    }
+  </style>
+
+  <rect class="bg" width="900" height="700" rx="34"/>
+  <rect class="panel" x="28" y="28" width="844" height="644" rx="26"/>
+
+  <text class="soft" x="76" y="91" font-size="15" letter-spacing="4">PROFILE / 2026</text>
+  <circle class="ink" cx="812" cy="84" r="6"/>
+
+  <text class="ink" x="72" y="205" font-size="80" font-weight="650" letter-spacing="-4">Lincxx722</text>
+  <text class="soft" x="76" y="250" font-size="21" letter-spacing="1">quiet building · useful tools · clean interfaces</text>
+
+  <line class="line" x1="76" y1="305" x2="824" y2="305"/>
+
+  <text class="soft" x="76" y="357" font-size="14" letter-spacing="3">NOW</text>
+  <text class="ink" x="226" y="357" font-size="23">Building Android and local tools.</text>
+
+  <line class="line" x1="76" y1="405" x2="824" y2="405"/>
+
+  <text class="soft" x="76" y="457" font-size="14" letter-spacing="3">PROJECT</text>
+  <text class="ink" x="226" y="457" font-size="23" font-weight="600">rikkahub</text>
+  <text class="soft" x="226" y="490" font-size="17">Android assistant workflow experiment.</text>
+
+  <line class="line" x1="76" y1="538" x2="824" y2="538"/>
+
+  <text class="soft" x="76" y="590" font-size="14" letter-spacing="3">CONTACT</text>
+  <text class="ink" x="226" y="590" font-size="23">@Lincxx722</text>
+
+  <text class="soft" x="76" y="636" font-size="13" letter-spacing="2">SIMPLE / USEFUL / EASY TO REVISIT</text>
+</svg>
